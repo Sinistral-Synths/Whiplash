@@ -1,6 +1,6 @@
 #define MyAppName "Whiplash"
 #define MyAppDir "whiplash"
-#define ExportsDir "exports"
+#define ExportsDir "releases"
 #define GraphicsDir "assets"
 
 [Setup]
