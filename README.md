@@ -26,7 +26,7 @@ Download the `.exe` installer from the [latest release](https://github.com/Sinis
 ### MacOS
 > <b>Note:</b> A version of [64-bit CSound 6.7+](https://csound.com/download.html) needs to be installed on your machine for both the VST3 plugin and the binary distributions of Whiplash to work.
 
-Download the VST3 version of the `.zip` or `.tar.gz` archive from the [latest release](https://github.com/KedarPanchal/whiplash/releases/latest) on GitHub. Extract the archive into a folder and move the extracted folder to the following location: `Library/Audio/Plug-ins/VST3`
+Download the VST3 version of the `.zip` or `.tar.gz` archive from the [latest release](https://github.com/Sinistral-Synths/whiplash/releases/latest) on GitHub. Extract the archive into a folder and move the extracted folder to the following location: `Library/Audio/Plug-ins/VST3`
 
 Afterward, fire up your DAW and re-scan for plugins to make sure Whiplash shows up.
 
