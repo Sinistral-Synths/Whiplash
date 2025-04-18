@@ -8,7 +8,7 @@ AppName={#MyAppName}
 AppVersion=1.0
 AppPublisher="Kedar Panchal"
 ArchitecturesInstallIn64BitMode=x64compatible
-DefaultDirName="{commoncf}\VST3"
+DefaultDirName="{commoncf}\VST3\{#MyAppName}"
 UninstallFilesDir="{app}"
 LicenseFile="./LICENSE"
 OutputBaseFilename="WhiplashInstaller"
@@ -28,7 +28,7 @@ Name: "{app}\{#MyAppDir}"; Permissions: users-full;
 Name: "{app}\{#MyAppDir}\{#GraphicsDir}"; Permissions: users-full;
 
 [Files]
-Source: "kaos.csd"; DestDir: "{app}\{#MyAppDir}"; Components: main; Flags: ignoreversion; Permissions: users-full;
+Source: "whiplash.csd"; DestDir: "{app}\{#MyAppDir}"; Components: main; Flags: ignoreversion; Permissions: users-full;
 Source: "{#GraphicsDir}\gooey.png"; DestDir: "{app}\{#MyAppDir}\{#GraphicsDir}"; Components: main; Flags: ignoreversion; Permissions: users-full;
 Source: "{#GraphicsDir}\knob.png"; DestDir: "{app}\{#MyAppDir}\{#GraphicsDir}"; Components: main; Flags: ignoreversion; Permissions: users-full;
 Source: "{#GraphicsDir}\knob2.png"; DestDir: "{app}\{#MyAppDir}\{#GraphicsDir}"; Components: main; Flags: ignoreversion; Permissions: users-full;
