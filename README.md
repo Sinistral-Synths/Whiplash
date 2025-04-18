@@ -10,7 +10,7 @@ Whiplash is a harsh noise synthesizer with various distortion effects intended t
 ---
 * [Installation](#installation)
     * [Windows](#windows)
-    * [MacOS](#mac-os)
+    * [MacOS](#macos)
 * [Filters overview](#filters-overview)
 * [Filters in-depth](#filters-in-depth)
 * [Asset Credits](#asset-credits)
