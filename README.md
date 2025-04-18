@@ -9,6 +9,8 @@ Whiplash is a harsh noise synthesizer with various distortion effects intended t
 
 ---
 * [Installation](#installation)
+    * [Windows](#windows)
+    * [MacOS](#mac-os)
 * [Filters overview](#filters-overview)
 * [Filters in-depth](#filters-in-depth)
 * [Asset Credits](#asset-credits)
@@ -18,13 +20,13 @@ Whiplash is a harsh noise synthesizer with various distortion effects intended t
 
 ---
 [Back to top](#table-of-contents)
+### Windows
+Download the `.exe` installer from the [latest release](https://github.com/Sinistral-Synths/Whiplash/releases/latest) and run it. If you already have CSound 6.7+ installed on your computer, be sure to uncheck the option to install it in the installer.
 
-> <b>Note:</b> A version of [64-bit CSound 6](https://csound.com/download.html) needs to be installed on your machine for both the VST3 plugin and the binary distributions of Whiplash to work.
+### MacOS
+> <b>Note:</b> A version of [64-bit CSound 6.7+](https://csound.com/download.html) needs to be installed on your machine for both the VST3 plugin and the binary distributions of Whiplash to work.
 
-Download the VST3 version of the `.zip` or `.tar.gz` archive from the [latest release](https://github.com/KedarPanchal/whiplash/releases/latest) on GitHub. Extract the archive into a folder and move the extracted folder to the following location based on your operating system:
-
-* Windows: `C:\Program Files\Common Files\VST3`
-* MacOS/OS X: `Library/Audio/Plug-ins/VST3`
+Download the VST3 version of the `.zip` or `.tar.gz` archive from the [latest release](https://github.com/KedarPanchal/whiplash/releases/latest) on GitHub. Extract the archive into a folder and move the extracted folder to the following location: `Library/Audio/Plug-ins/VST3`
 
 Afterward, fire up your DAW and re-scan for plugins to make sure Whiplash shows up.
 
